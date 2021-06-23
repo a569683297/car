@@ -17,13 +17,13 @@
 
 import React from 'react';
 import {HashRouter, Route, Switch} from "react-router-dom";
-// import mChildren from '../pages/mChildren';
+// import Mchildren from '../pages/Mchildren';
 import MainLayout from '../pages/MainLayout';
 
 const BasicRouter = () => (
     <HashRouter>
         <Switch>
-            <Route exact path="/index" component={MainLayout} />
+            <Route  path="/index" component={MainLayout} />
             {/* <Route exact path="/index/children" component={mChildren} /> */}
         </Switch>
     </HashRouter>
